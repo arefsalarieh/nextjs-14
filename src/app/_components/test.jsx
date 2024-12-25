@@ -2,7 +2,7 @@ import React from 'react'
 
 const Test = () => {
   return (
-    <div>Test</div>
+    <div>files in this folder are just component and cant be route</div>
   )
 }
 
