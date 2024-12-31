@@ -5,7 +5,7 @@ const Review = () => {
   return (
     <div>
       <h1>Review</h1>
-      <Link className='text-blue-400' href='/ParallelNew/old'>go to old</Link>
+      <Link className='text-blue-400' href='/ParallelUnmatchedRoutes/old'>go to old</Link>
 
     </div>
   )

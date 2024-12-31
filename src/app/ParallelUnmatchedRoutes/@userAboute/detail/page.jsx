@@ -5,7 +5,7 @@ const Detail = () => {
   return (
     <div>
         <h1>Detail</h1>
-      <Link className='text-blue-400' href='/ParallelNew'>go to user aboute</Link>
+      <Link className='text-blue-400' href='/ParallelUnmatchedRoutes'>go to user aboute</Link>
 
     </div>
   )

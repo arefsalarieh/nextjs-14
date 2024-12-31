@@ -5,7 +5,7 @@ const Notification = () => {
   return (
     <div>
       <h1>Notification</h1>
-      <Link  className="text-blue-400" href='/ParallelNew/archived'>go to archived</Link>
+      <Link  className="text-blue-400" href='/ParallelUnmatchedRoutes/archived'>go to archived</Link>
     </div>
   )
 }

@@ -5,7 +5,7 @@ const DefaultNotification = () => {
   return (
     <div>
       <h1>Notification</h1>
-      <Link href='/ParallelNew/archived'>go to archived</Link>
+      <Link href='/ParallelUnmatchedRoutes/archived'>go to archived</Link>
     </div>
   )
 }
