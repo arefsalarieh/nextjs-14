@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/app/InterceptingRoutesA/(.)f2/page.jsx", "src/app/InterceptingRoutesA/f2/page.jsx", "src/app/InterceptingRoutesB/f3/page.jsx", "src/app/InterceptingRoutesB/f4/page.jsx", "src/app/InterceptingRoutesB/f4/(..)f3/page.jsx", "src/app/InterceptingRoutesC/f5/(...)aboute/page.jsx", "src/app/_components/modal.jsx", "src/app/InterceptingRoutesD/wonders.js", "src/app/InterceptingRoutesD/[id]/page.jsx", "src/app/InterceptingRoutesD/layout.jsx", "src/app/InterceptingRoutesD/@modal/(..)InterceptingRoutesD/[id]/page.jsx", "src/app/InterceptingRoutesD/@modal/default.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
