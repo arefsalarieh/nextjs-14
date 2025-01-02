@@ -52,6 +52,21 @@ const Test = () => {
       </div>
 
       <div className="flex gap-5">
+        <h2>5' - real route handler with query</h2>
+        <Link href="/extra?query=first" className="text-blue-400">
+          go extra?query=first
+        </Link>
+      </div>
+
+      <div className="flex gap-5">
+        <h2>5'' - real route handler with params</h2>
+        <Link href="/extra/1" className="text-blue-400">
+          go extra/1
+        </Link>
+      </div>
+
+
+      <div className="flex gap-5">
         <h2>6 - request Headers in route handler</h2>
         <Link href="/gol/api" className="text-blue-400">
           go gol/api
@@ -87,11 +102,17 @@ const Test = () => {
       </div>
 
       <div className="flex gap-5">
-        <h2>10 -  Caching in Route Handlers - dynamic mode </h2>
+        <h2>11 -  Caching in Route Handlers - dynamic mode </h2>
         <Link href="/lam" className="text-blue-400">
           go lam
         </Link>
       </div>
+
+
+
+
+     
+
     </>
   );
 };

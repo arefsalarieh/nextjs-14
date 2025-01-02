@@ -15,7 +15,7 @@ import { comments } from "./data";
 
 
 // Get with query parameter
-// whe url change to http://localhost:3000/extra?query=first we expect see the comments that includes 'first' in them
+// when url change to http://localhost:3000/extra?query=first we expect see the comments that includes 'first' in them
 export async function GET(request) {
     const searchParams = request.nextUrl.searchParams;
     const query = searchParams.get("query");

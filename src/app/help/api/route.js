@@ -5,7 +5,6 @@ import { headers } from "next/headers";
 // 2 - response headers
 // sent back from the server to client . they provide info aboute the server and data being sent in the response
 // a) 'Content-Type'  : show type of response such as text / HTML , ...
-
 // go to thunder client and change the url to http://localhost:3000/gol/api
 // at Headers tab add another field     (Authorization    :   Bearer 12345)
 

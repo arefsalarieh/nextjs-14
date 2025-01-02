@@ -8,7 +8,7 @@ export async function GET(request) {
   cookies().set("resultsPerPage", "20");
   console.log(cookies().get("resultsPerPage")); // log at terminal
 
-  // nextjs cookies has more methodw / write cookies().  to see the options
+  // nextjs cookies has more methodw => write cookies().  to see the options
 
   return new Response("<h1>jack / api route</h1>", {
     headers: {

@@ -14,7 +14,6 @@ import { headers } from "next/headers";
 
 
 // for recive the headers parameter
-
 export async function GET(request) {
 // first way
 //   const requestHeaders = new Headers(request.headers);
@@ -27,5 +26,5 @@ export async function GET(request) {
   return new Response("gol / api route");
 }
 
-// go to thunder client and send request then you can see log in terminal
+// go to thunder client in headers tab add new item {Authorization : Bearer1234} and change url to http://localhost:3000/gol/api then send request then you can see log in terminal
 

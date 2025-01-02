@@ -3,4 +3,4 @@ export async function GET() {
   }
 
 // at develope mode with every refresh it will be updata
-// but at build mode its cache and dont change
+// but at build mode it cache and dont change

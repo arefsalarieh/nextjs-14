@@ -1,4 +1,4 @@
 export async function GET() {
-    return new Response("aboute route");
+    return new Response("aboute route handler");
   }
   
