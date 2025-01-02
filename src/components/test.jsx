@@ -79,6 +79,19 @@ const Test = () => {
         </Link>
       </div>
 
+      <div className="flex gap-5">
+        <h2>10 -  Caching in Route Handlers </h2>
+        <Link href="/kal" className="text-blue-400">
+          go kal
+        </Link>
+      </div>
+
+      <div className="flex gap-5">
+        <h2>10 -  Caching in Route Handlers - dynamic mode </h2>
+        <Link href="/lam" className="text-blue-400">
+          go lam
+        </Link>
+      </div>
     </>
   );
 };
